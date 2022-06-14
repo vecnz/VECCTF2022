@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import hashlib
 try:
     with open('./flag.txt') as f:
@@ -24,7 +25,7 @@ def check_flag_hash():
         start = min(first_index, second_index)
         end = max(second_index, second_index)
 
-        if end - start < 4:
+        if end - start < 3:
             print('Need a larger gap')
             continue
 
@@ -34,7 +35,7 @@ def check_flag_hash():
         m.update(flag_part.encode())
         flag_hash = m.digest()
         
-        print(flag_hash)
+        print('Your hash: ' + flag_hash.hex())
         break
 
 def hash_user_input():
@@ -42,7 +43,7 @@ def hash_user_input():
     m = hashlib.sha512()
     m.update(user_input.encode())
     hash = m.digest()
-    print(b'Your hash: ' + hash)
+    print('Your hash: ' + hash.hex())
 
 while (1):
     user_input = input(user_string)
