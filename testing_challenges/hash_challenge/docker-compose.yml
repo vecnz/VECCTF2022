@@ -1,0 +1,5 @@
+services:
+  hash:
+    build: .
+    ports:
+      - "1337:8080"
