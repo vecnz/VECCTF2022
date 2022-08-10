@@ -1,0 +1,7 @@
+Now that we have gathered all the keys, we can unlock the lockbox to get the map.
+
+After carefully investigating the lockbox, you discover is a very vague riddle on the back:
+
+	"The password is: KEY1_KEY2_KEY3"
+
+But honestly who knows what that means.
