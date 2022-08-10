@@ -1,0 +1,46 @@
+version: '2.1'
+
+services:
+        db:
+            image: mysql:8.0
+            container_name: db
+            restart: always
+            environment:
+            # Password for root access
+
+                MYSQL_ROOT_PASSWORD: 'passsword'
+
+
+            networks:
+                - my-network
+            ports:
+              - '3306:3306'
+
+         #     # Where our data will be persisted
+            volumes:
+           
+              - ./sql/users.sql:/docker-entrypoint-initdb.d/init-script.sql
+
+
+        vicctf_sqli:
+                build: .
+                restart: unless-stopped
+                ports:
+                        - "9078:80"
+                
+                networks:
+                        - my-network
+
+                depends_on:
+                        - db
+
+                labels:
+                    - autoheal=true
+                healthcheck:
+                    test: curl --fail http://localhost:9051 || exit 1
+                    interval: 300s
+                    retries: 0
+                    start_period: 5s
+                    timeout: 0s
+networks:
+  my-network:
