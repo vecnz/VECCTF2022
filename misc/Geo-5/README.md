@@ -7,9 +7,9 @@ Flag is the location with underscores between words if needed. (contents of the 
 
 **Category: Misc - Geoint** 
 
-**Difficulty: Easy **
+**Difficulty: Easy**
 
-**Author: Annie ** 
+**Author: Annie** 
 
 **Flag: ahoy{MATIU/SOMES_ISLAND}**
 
