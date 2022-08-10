@@ -21,3 +21,5 @@ Hint: write the output down for later ;)
 
 ## Exploit
 See Exploit.pdf
+
+**Flag: ahoy{PUERTORICO}***
