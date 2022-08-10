@@ -1,4 +1,4 @@
-# Geo 5
+# Strings
 
 ## Description 
 The `strings` command is like the hook for a pirate, an essential tool. Sometimes, someone is a little too clever for their own good.
