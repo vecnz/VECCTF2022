@@ -16,7 +16,9 @@ Hint: write the output down for later ;)
 
 **Difficulty: Easy**
 
-**Author: Izaak** 
+**Author: Izaak**
 
 ## Exploit
 See Exploit.pdf
+
+**Flag: ahoy{FLORIDA}**
