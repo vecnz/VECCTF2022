@@ -1,0 +1,5 @@
+services:
+  not_simple_bof:
+    build: .
+    ports:
+      - "4444:1337"
