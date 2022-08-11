@@ -1,7 +1,7 @@
 # demo
 ## Description 
 
-`ssh student@3.27.46.246`
+`ssh student@54.253.17.166`
 
 Password: `Ayw8U1bm2D857UASzd`
 
