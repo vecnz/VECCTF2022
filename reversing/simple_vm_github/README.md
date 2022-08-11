@@ -1,6 +1,6 @@
-#Simple VM
+# Simple VM
 
-##Description
+## Description
 
 Yaar, this virtual machine contains some black magic, see if you can poke inside
 
@@ -13,4 +13,4 @@ Yaar, this virtual machine contains some black magic, see if you can poke inside
 **Flag:** AHOY{Vm_t6eY_B3_g0o0D}
 
 ## Exploit
-Please refer to exploit.pdf
+Please refer to rev.pdf
