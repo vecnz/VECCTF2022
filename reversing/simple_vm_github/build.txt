@@ -1,0 +1,2 @@
+clang ./main.c vm.c vm.h
+mv ./a.out simple_vm
