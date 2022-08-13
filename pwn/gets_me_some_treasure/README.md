@@ -1,7 +1,7 @@
 # Gets me some treasure
 
 ## Description 
-Our treasure has been stolen by a rival gang, can you get past their guard to steal it back?
+Our treasure has been stolen by a rival pirate crew, can you get past their guard to steal it back?
 
 **Category: pwn** 
 
