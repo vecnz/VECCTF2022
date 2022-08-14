@@ -2,7 +2,7 @@
 
 ## Description
 
-One of the new ships boys has turned all of our important details into a new patchwork sail. Can you save our secret key?
+One of the new cabin boys has turned all of our important details into a new patchwork sail. Can you save our secret key?
 
 **Category:** misc
 
