@@ -176,7 +176,7 @@ form.header{
         <h1>Krayline is looking for love. </h1>
         <h2>She enjoys eating ships, and long walks on the beach. </h2>
         <p><img src="https://i.postimg.cc/nhB1n15t/finalkrakenlady1.jpg" class="center"></p>
- 
+        <h2>See her at https://postlmg.cc/Js7XqjMT</h2>
         
         <p>&nbsp;</p>
         <form><input class="logout" type="submit" value="Logout"></form>
