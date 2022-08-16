@@ -1,0 +1,5 @@
+services:
+  bitflip:
+    build: .
+    ports:
+      - "6666:1337"
