@@ -30,6 +30,10 @@ RUN echo "ctf:ctf" | chpasswd
 WORKDIR /home/ctf
 COPY pow.py .
 COPY flag.txt .
+COPY main.py .
+RUN ln -s /spidermonkey_build/mozilla-unified/obj-normal-x86_64-pc-linux-gnu/dist/bin/js ./js
+
+
 RUN chown -R root:root /home/ctf
 USER ctf
 
