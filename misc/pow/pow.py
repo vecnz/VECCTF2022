@@ -19,7 +19,7 @@ class Pow():
         chall_bytes = bytes.fromhex(self.chall)
         return full_hash.endswith(chall_bytes)
 
-for i in range(2, 10, 2):
+for i in range(2, 8, 2):
     user_challenge = Pow(32, i, secrets.token_hex().encode())
     user_challenge.create_challenge()
 
