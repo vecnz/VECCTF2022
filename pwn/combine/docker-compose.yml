@@ -1,0 +1,5 @@
+services:
+  spidermonkey:
+    build: .
+    ports:
+      - "8008:1337"
