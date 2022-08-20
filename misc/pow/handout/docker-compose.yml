@@ -1,0 +1,5 @@
+services:
+  pow:
+    build: .
+    ports:
+      - "1337:8537"
