@@ -11,4 +11,4 @@
 **Flag: AHOY{Pr00f_of_W0Rk}**
 
 ## Exploit
-We just keep incrementing the prefix until it matches, also see solve_pow.py
+We just keep incrementing the suffix until it matches, also see solve_pow.py
