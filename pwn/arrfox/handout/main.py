@@ -21,7 +21,7 @@ if not user_challenge.check_solution(user_suffix):
 print('Correct suffix')
 
 def call_js():
-    os.system('/spidermonkey_build/mozilla-unified/obj-normal-x86_64-pc-linux-gnu/dist/bin/js -i')
+    os.system('/home/ctf/js -i')
 
 
 t = threading.Thread(target=call_js)
